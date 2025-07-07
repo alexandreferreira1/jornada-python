@@ -28,6 +28,6 @@ while not thatsRight:
 
 print()
 print(f'Aeeee! O número a ser adivinhado era {computer}')
-print(f'Você acertou depois de {trying} tentativa(s)')
+print(f'Você acertou depois de {trying} tentativa{'s' if trying > 1 else ''}')
 
 

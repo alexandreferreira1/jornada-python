@@ -1,4 +1,4 @@
-# # Continuação das Estruturas de Repetição - while sem break
+# Continuação das Estruturas de Repetição - while sem break
 # Faça uma validação de dados. Ele pede sexo M ou F. Caso a pessoa digite algo além disso, o programa pede novamente. Acertado, então finaliza.
 
 sexUser = input('Olá. Informe o seu sexo: [M/F] ')
