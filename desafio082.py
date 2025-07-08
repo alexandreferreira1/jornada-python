@@ -1,12 +1,15 @@
 # Ler vários números e colocar numa lista. Depois criar uma lista extra para valores pares e outra para ímpares.
 # Faça com um loop que apenas lê os dados primeiro. No final exibir as 3 listas.
 
-numbers = evenNumbers = oddNumbers = []
+numbers = []
+evenNumbers = []
+oddNumbers = []
 
 while True:
     numbers.append(int(input(f'Digite um número: ')))
     print('Número adicionado')
 
+    #Validação da continuação
     while True:
         response = input('Deseja continuar? [S / N] ')
         if response not in 'SsNn':
