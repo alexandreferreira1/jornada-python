@@ -10,16 +10,17 @@ def somaPar(valores):
     for n in valores:
         if n % 2 == 0:
             soma += n
-    return soma
+    print(f'A soma entre os números pares gerados foi {soma}')
 
 def sorteia():
     for v in range(0,5):
-        numeros.append(randint(1,100))
+        numeros.append(randint(1,20))
 
-#Programa principal
     print()
     print(numeros)
-    print(f'O maior número par gerado foi {somaPar(numeros)}')
+
 
 sorteia()
+somaPar(numeros)
+
 
