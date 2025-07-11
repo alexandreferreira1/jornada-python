@@ -16,4 +16,4 @@ from utilidades.moeda import moeda
 
 
 valor = leiaDinheiro('Digite o preço: R$')
-moeda.resumo(valor, aumento=80, reducao=30)
+moeda.resumo(valor, reducao=30, aumento=80 )
